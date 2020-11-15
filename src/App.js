@@ -55,7 +55,7 @@ const App = () => {
           Search
         </button>
       </form>
-      <div className="recipe">
+      <div className="recipes">
         {recipes.map((recipe) => (
           <Recipe
             key={recipe.recipe.url}

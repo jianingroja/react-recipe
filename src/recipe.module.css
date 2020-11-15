@@ -1,6 +1,6 @@
 .recipe {
   width: 40%;
-  border-radius: 10px;
+  border-radius: 50px;
   box-shadow: 0 5px 20px rgba(45, 167, 228, 0.377);
   color: #cddcdc;
   background-color: rgb(7, 57, 104);
@@ -10,6 +10,14 @@
   justify-content: space-around;
   align-items: center;
   font-family: sans-serif;
+}
+@media screen and (max-width: 768px) {
+  .recipe {
+    width: 80%;
+  }
+}
+h1 {
+  text-align: center;
 }
 
 .image {
